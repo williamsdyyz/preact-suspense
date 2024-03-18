@@ -4,7 +4,6 @@ import { useEffect, useState } from "preact/hooks";
 const Message = lazy(() => import("./message.jsx"));
 
 export function App() {
-    const [open, setOpen] = useState(true);
     const [forceRender, setFR] = useState(false);
 
     useEffect(() => {
